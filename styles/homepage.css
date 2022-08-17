@@ -1,0 +1,260 @@
+.section-1 {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #e4bd8d;
+  padding-top: calc(8% + 40px);
+  position: relative;
+  overflow: hidden;
+}
+.section-1 .hero-text {
+  font-family: "Bebas Neue" !important;
+  font-size: 290px;
+  text-align: center;
+  width: 90%;
+  margin-left: 3%;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #4F3B23;
+}
+.section-1 .hero-text-2 {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  color: #000000;
+  font-weight: 700;
+  margin-top: -89px;
+}
+.section-1 .mint-text {
+  width: 20%;
+  background-color: #4F3B23;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  left: 40%;
+  position: absolute;
+  bottom: 13%;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: 600;
+  z-index: 10;
+  box-shadow: -4px 4px #fff;
+}
+.section-1 .monkey_left {
+  position: absolute;
+  width: 23%;
+  bottom: 0;
+  left: 5%;
+}
+.section-1 .monkey_right {
+  position: absolute;
+  width: 26%;
+  bottom: 0;
+  right: 5%;
+}
+.section-1 .monkey_mobile {
+  display: none;
+}
+
+.section-2 {
+  border-top: 15px solid #000;
+  background-color: #eab464;
+  background-image: url(../public/images/star_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 250px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-2 .story-board {
+  width: 50%;
+  background-color: white;
+  border: 20px solid #000;
+  padding: 50px 30px;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  position: relative;
+}
+.section-2 .story-board .monkey_ellipse {
+  width: 38%;
+  position: absolute;
+  left: 31%;
+  top: -15%;
+}
+.section-2 .story-board p {
+  width: 100%;
+  text-align: center;
+}
+.section-2 .story-board .heading {
+  font-family: "NimbusSans";
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.section-2 .story-board .content {
+  font-size: 20px;
+}
+.section-2 .story_monkeys {
+  margin-bottom: -7px;
+  width: 30%;
+}
+
+.section-3 {
+  border-top: 15px solid #000;
+  background-color: #00b5aa;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-3 .heading {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+.section-3 .board {
+  width: 50%;
+  border: 20px solid #000;
+  background-color: white;
+  padding: 45px 30px;
+  margin-bottom: 100px;
+}
+.section-3 .desc {
+  padding: 0 20%;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 400 !important;
+}
+.section-3 .kong_collection {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section-3 .kong_collection .kong_card {
+  width: 31.25%;
+  margin-bottom: 50px;
+}
+.section-3 .kong_collection .kong_card .description {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.section-3 .meet {
+  font-size: 90px;
+}
+.section-3 .marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #e98a15;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  height: 80px;
+  font-family: "NimbusSans";
+  line-height: 77px;
+  text-transform: uppercase;
+  font-size: 55px !important;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+}
+.section-3 .track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  -webkit-animation: marquee 30s linear infinite;
+          animation: marquee 30s linear infinite;
+  overflow-y: hidden;
+}
+.section-3 .track .cont {
+  display: flex;
+}
+.section-3 .track .cont p {
+  margin: 0 60px;
+}
+.section-3 .track .cont img {
+  transform: translateY(-20px);
+}
+
+.section-4 {
+  padding-top: 250px;
+  padding-bottom: 150px;
+  border-top: 20px solid #000;
+  background-color: #bb4430;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: top left, 110% 100%, 0% 100%, 120% 10%, 0% 50%;
+  background-repeat: no-repeat;
+}
+.section-4 .board {
+  width: 80%;
+  border: 20px solid #000;
+  background-color: #e3e3e3;
+  padding: 30px 40px;
+  cursor: pointer;
+}
+.section-4 .board .heading {
+  font-size: 120px;
+}
+.section-4 .board .redacted {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+.section-4 .board .redacted .heading {
+  color: rgba(0, 0, 0, 0.1921568627);
+}
+
+.footer-section {
+  background-color: #000;
+  padding-top: 120px;
+  padding-bottom: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.footer-section .hero-text {
+  font-size: 162px;
+  color: white;
+}
+.footer-section .hero-text-2 {
+  font-size: 60px;
+  color: #fff;
+  margin-top: -50px;
+}
+.footer-section img {
+  width: 30%;
+  margin-bottom: -5px;
+}
+.footer-section .footer-kongz {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8%;
+  margin-top: -12%;
+}
+.footer-section .connect {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6666666667);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+.popup .roadmap {
+  width: 75%;
+}/*# sourceMappingURL=homepage.css.map */

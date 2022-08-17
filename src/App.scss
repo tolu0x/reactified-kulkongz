@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("./fonts/SpaceGrotesk[wght].woff2");
+}
+@font-face {
+  font-family: "NimbusSans";
+  src: url("./fonts/nimbus_sans_becker_pbla.ttf");
+}
+
+body {
+  font-family: "SpaceGrotesk";
+  color: #000;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+
+p,
+h1 {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.heading {
+  font-family: "NimbusSans";
+}
+.content {
+  font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+@keyframes animate-first-screen {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate-second-screen {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@import "../styles/navbar.scss";
+@import "../styles/homepage.scss";
+@import "../styles/homepage-mobile.scss";

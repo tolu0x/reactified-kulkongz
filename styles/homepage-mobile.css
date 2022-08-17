@@ -1,0 +1,162 @@
+@media (max-width: 700px) {
+  .section-1 {
+    padding-top: 20vh;
+    height: unset;
+    min-height: 67vh;
+    position: relative;
+  }
+  .section-1::after {
+    content: "";
+    position: absolute;
+    font-family: "NimbusSans" !important;
+    font-size: 150px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.073);
+    top: 0;
+    left: 0;
+  }
+  .section-1 .hero-text {
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 82px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #4F3B23;
+  }
+  .section-1 .hero-text-2 {
+    margin-top: -20px;
+    font-size: 25px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  }
+  .section-1 .mint-text {
+    width: 50%;
+    left: 25%;
+    bottom: 30%;
+    border: unset;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    z-index: 10;
+    box-shadow: -4px 4px #fff;
+  }
+  .section-1 .monkey_left {
+    display: none;
+  }
+  .section-1 .monkey_right {
+    display: none;
+  }
+  .section-1 .monkey_mobile {
+    display: block;
+    height: unset;
+    margin-bottom: -10px;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+  .section-2 {
+    padding-top: 150px;
+  }
+  .section-2 .story-board {
+    width: 90%;
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+    padding: 45px 25px;
+    padding-top: 70px;
+  }
+  .section-2 .story-board .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .section-2 .story-board .content {
+    font-size: 16px;
+  }
+  .section-2 .story-board .monkey_ellipse {
+    top: -12%;
+  }
+  .section-2 .story_monkeys {
+    width: 90%;
+    margin-bottom: -3px;
+  }
+  .section-3 .heading {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  .section-3 .board {
+    width: 90%;
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 13px solid #000;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+  }
+  .section-3 .board .content {
+    font-size: 16px;
+  }
+  .section-3 .marquee {
+    font-size: 45px !important;
+  }
+  .section-3 .desc {
+    padding: 0 10%;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .section-3 .kong_collection .kong_card {
+    width: 100%;
+  }
+  .section-3 .kong_collection .kong_card .description {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .section-4 {
+    background-size: 60%;
+  }
+  .section-4 .board {
+    width: 90%;
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 13px solid #000;
+    border-left: 16px solid #000;
+    padding: 25px 15px;
+  }
+  .section-4 .board .heading {
+    font-size: 50px;
+  }
+  .section-4 .board .redacted {
+    height: unset;
+    min-height: 400px;
+  }
+  .footer-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .footer-section .hero-text {
+    font-size: 62px;
+  }
+  .footer-section .hero-text-2 {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .footer-section .connect {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10%;
+    bottom: 20%;
+  }
+  .footer-section .footer-kongz {
+    padding: 0;
+  }
+  .footer-section .footer-kongz img {
+    margin-bottom: 0;
+  }
+  .footer-section .footer-kongz .monkey_left {
+    margin-left: -25px;
+  }
+  .footer-section .footer-kongz .monkey_right {
+    margin-right: -30px;
+  }
+  .popup .roadmap {
+    width: 100%;
+  }
+}/*# sourceMappingURL=homepage-mobile.css.map */
