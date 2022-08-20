@@ -162,7 +162,9 @@ function App() {
               document.body.style.overflow = "hidden";
             }}
           >
-            <p className="heading">[CLICK ME]</p>
+            <p className="heading">
+              {windowDimensions.width > 700 ? "[CLICK ME]" : "[CLICK]"}
+            </p>
           </div>
         </div>
       </section>
