@@ -113,7 +113,7 @@ function App() {
           <p className="content">
             Kulkongz Society is a community-based NFT project on Avalanche.
             Kulkongz is a collection of algorithmically generated kong
-            characters minted as NFTs on AVAX C-chain. A total of 2222 kongz
+            characters minted as NFTs on AVAX C-chain. A total of XYZ kongz
             will be generated from various clothing outfits, faces, headpieces,
             gadgets, and colors. The Kongz have different body types, some rarer
             than others.

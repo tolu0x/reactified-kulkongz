@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#home">
-        <img alt="" src="/images/head_logo.png" className="logo" />
+        <img alt="" src="/images/kongz-logo.png" className="logo" />
       </a>
       <span className="menu" onClick={toogleMenu}>
         <img alt="" src="/icons/menu.png" />
