@@ -10,11 +10,11 @@
   top: 30px;
   padding: 3px 10px 0 37px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .navbar .logo {
   height: 100%;
-  min-width: 60%;
+  min-width: 70px;
 }
 .navbar .menu {
   display: none;
@@ -108,5 +108,14 @@
   }
   .navbar .links.open {
     transform: translateX(0);
+  }
+}
+
+@media (min-width: 900px) {
+  .navbar {
+    width: 70%;
+    left: 16%;
+    top: 30px;
+    padding: 3px 10px 0 37px;
   }
 }/*# sourceMappingURL=navbar.css.map */

@@ -6,12 +6,18 @@
   position: relative;
   overflow: hidden;
 }
+.section-1 .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .section-1 .hero-text {
   font-family: "Bebas Neue" !important;
-  font-size: 290px;
+  font-size: 25vw;
   text-align: center;
   width: 90%;
-  margin-left: 3%;
+  max-width: 2800px;
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 5px;
@@ -23,7 +29,7 @@
   font-size: 60px;
   color: #000000;
   font-weight: 700;
-  margin-top: -89px;
+  margin-top: -75px;
 }
 .section-1 .mint-text {
   width: 20%;
@@ -79,10 +85,10 @@
   position: relative;
 }
 .section-2 .story-board .monkey_ellipse {
-  width: 38%;
+  width: 200px;
   position: absolute;
-  left: 31%;
-  top: -15%;
+  left: 15vw;
+  top: -7rem;
 }
 .section-2 .story-board p {
   width: 100%;
@@ -120,6 +126,7 @@
   background-color: white;
   padding: 45px 30px;
   margin-bottom: 100px;
+  margin: 0 auto;
 }
 .section-3 .desc {
   padding: 0 20%;

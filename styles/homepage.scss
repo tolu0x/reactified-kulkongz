@@ -5,13 +5,20 @@
   padding-top: calc(8% + 40px);
   position: relative;
   overflow: hidden;
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .hero-text {
     font-family: 'Bebas Neue' !important;
     // color: white;
-    font-size: 290px;
+    font-size: 25vw;
     text-align: center;
     width: 90%;
-    margin-left: 3%;
+    max-width: 2800px;
+
     // text-shadow: 8px 0px 0 #000000, 8px -8px 0 #000000, 0px -8px 0 #000000,
     //   -8px -8px 0 #000000, -8px 8px 0 #000000, 14px 8px 0 #000000;
     color: black;
@@ -25,7 +32,7 @@
     font-size: 60px;
     color: #000000;
     font-weight: 700;
-    margin-top: -89px;
+    margin-top: -75px;
   }
   .mint-text {
     width: 20%;
@@ -79,10 +86,10 @@
     margin-bottom: 70px;
     position: relative;
     .monkey_ellipse {
-      width: 38%;
+      width: 200px;
       position: absolute;
-      left: 31%;
-      top: -15%;
+      left: 15vw;
+      top: -7rem;
     }
     p {
       width: 100%;
@@ -120,6 +127,7 @@
     background-color: white;
     padding: 45px 30px;
     margin-bottom: 100px;
+    margin: 0 auto;
   }
   .desc {
     padding: 0 20%;

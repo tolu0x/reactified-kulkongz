@@ -51,13 +51,15 @@ function App() {
     <div className="App">
       <Navbar />
       <section className="section-1" id="home">
-        <h1 className="hero-text">KULKONGZ</h1>
-        {/* <img
+        <div className="hero-content">
+          <h1 className="hero-text">KULKONGZ</h1>
+          {/* <img
           src="/images/KULKONGZ_text.png"
           alt="KULKONGZ"
           className="hero-text"
         /> */}
-        <p className="hero-text-2">Society</p>
+          <p className="hero-text-2">Society</p>
+        </div>
         <p className="mint-text">Minting Soon</p>
         <img
           alt=""
@@ -113,7 +115,7 @@ function App() {
           <p className="content">
             Kulkongz Society is a community-based NFT project on Avalanche.
             Kulkongz is a collection of algorithmically generated kong
-            characters minted as NFTs on AVAX C-chain. A total of XYZ kongz
+            characters minted as NFTs on AVAX C-chain. A total of 1500 kongz
             will be generated from various clothing outfits, faces, headpieces,
             gadgets, and colors. The Kongz have different body types, some rarer
             than others.
@@ -196,8 +198,7 @@ function App() {
           </a>{" "}
           and{" "}
           <a
-            href="/"
-            // href="https://twitter.com/kulkongz"
+            href="https://discord.gg/gRB54TpvNC"
             target="_blank"
             rel="noreferrer"
             style={{ fontWeight: "bold", color: "white" }}
